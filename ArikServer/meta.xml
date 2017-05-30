@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<meta>
+  <info name="Arik Server" description="Server resource to control the server." author="Arik" version="1.0" shadowcopy="true" />
+
+  <script src="ServerManager.cs" type="server" lang="csharp" />
+  <script src="ClientManager.js" type="client" lang="javascript" />
+
+  <export function="setDebug" class="DoorManager" />
+
+  <assembly ref="System.Xml.Serialization.dll" />
+  <assembly ref="System.Xml.dll" />
+</meta>
