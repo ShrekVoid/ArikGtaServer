@@ -2,7 +2,7 @@
 <meta>
   <info name="Arik Server" description="Server resource to control the server." author="Arik" version="1.0" shadowcopy="true" />
 
-  <script src="ServerManager.cs" type="server" lang="csharp" />
+  <script src="bin/Debug/ArikServer.dll" type="server" lang="compiled" />
   <script src="ClientManager.js" type="client" lang="javascript" />
 
   <export function="setDebug" class="DoorManager" />
